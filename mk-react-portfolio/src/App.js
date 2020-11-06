@@ -1,9 +1,13 @@
 import './App.css';
-import HomePageContainer from './components/HomePage'
+import NavBar from './components/NavBar';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return(
-<HomePageContainer/>
+    <div>
+    <NavBar/>
+    <AboutMe/>
+    </div>
 )}
 // function App() {
 //   return (

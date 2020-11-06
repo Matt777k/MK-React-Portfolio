@@ -1,13 +1,13 @@
 import React from 'react';
-import App from '../App';
+// import App from '../App';
 
-function HomePageContainer() {
+function NavBar() {
     return(
         
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">Matthew Kerr (Orlando, FL)</a>
+      Matthew Kerr (Orlando, FL)
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -21,7 +21,7 @@ function HomePageContainer() {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="index.html"
-              >About <span class="sr-only">(current)</span></a
+              >About <span className="sr-only">(current)</span></a
             >
           </li>
           <li className="nav-item">
@@ -39,4 +39,4 @@ function HomePageContainer() {
 }
 
 
-export default HomePageContainer;
+export default NavBar;

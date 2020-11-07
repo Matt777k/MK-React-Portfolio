@@ -15,8 +15,9 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path="./pages/ContactPage" component={ContactPage} />
-          <Route exact path="./pages/PortfolioPage" component={PortfolioPage}/>
+          <Route exact path="/components/AboutMe" component={AboutMe} />
+          <Route exact path="/pages/ContactPage" component={ContactPage} />
+          <Route exact path="/pages/PortfolioPage" component={PortfolioPage}/>
           <Route path="/" component={AboutMe}/>
         </Switch>
         <Footer />

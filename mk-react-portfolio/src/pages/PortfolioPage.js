@@ -1,4 +1,7 @@
 import React from "react";
+import WebsiteImg from "../images/My website screen shot.PNG"
+import CalCalImg from "../images/calorie calculator img.PNG"
+import ForageImg from "../images/forageHMpage-screen-shot.PNG"
 
 function PortfolioPage() {
   return (
@@ -11,7 +14,7 @@ function PortfolioPage() {
         <div className="card-deck">
           <div className="card">
             <img
-              src="./My website screen shot.PNG"
+              src={WebsiteImg}
               className="card-img-top"
               alt="pic of website Matthew Kerr built"
             />
@@ -43,7 +46,7 @@ function PortfolioPage() {
               rel="noreferrer"
             >
               <img
-                src="./calorie calculator img.PNG"
+                src={CalCalImg}
                 className="card-img-top"
                 alt="website for calorie calculator project"
               />
@@ -79,7 +82,7 @@ function PortfolioPage() {
           <div className="card">
             <a href="https://forage-mealplan.herokuapp.com/" target="_blank" rel="noreferrer">
               <img
-                src="./forageHMpage-screen-shot.PNG"
+                src= {ForageImg}
                 className="card-img-top"
                 alt="pic of Homepage of Forage website"
               />
@@ -109,7 +112,7 @@ function PortfolioPage() {
             </div>
           </div>
         </div>
-        <div className="card mx-auto mt-3 mb-3" style="width: 18rem;">
+        <div className="card mx-auto mt-3 mb-3 p-2 mb-2">
           <div className="card-header text-center">Skills:</div>
           <ul className="list-group list-group-flush text-center">
             <li className="list-group-item">HTML5</li>

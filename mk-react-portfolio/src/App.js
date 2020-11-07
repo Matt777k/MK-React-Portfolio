@@ -1,36 +1,28 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import AboutMe from './components/AboutMe';
+// import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
+import PortfolioPage from "./pages/PortfolioPage";
+import ContactPage from "./pages/ContactPage";
+import Footer from "./components/Footer";
+import "./pages/custom-style.css";
+
 
 function App() {
-  return(
-    <div>
-    <NavBar/>
-    <AboutMe/>
-    </div>
-)}
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <HomePage/>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// ReactDOM.render(HomePage, document.getElementById('root'))
+  return (
+    <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path="./pages/ContactPage" component={ContactPage} />
+          <Route exact path="./pages/PortfolioPage" component={PortfolioPage}/>
+          <Route path="/" component={AboutMe}/>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
 
 export default App;

@@ -8,7 +8,7 @@ function Footer() {
           Matthew Kerr RD (check out my professional links here).
         </span>
         <a
-          className="btn-floating btn-lg btn-git"
+          className="btn-floating btn-sm btn-git btn-dark"
           type="button"
           role="button"
           href="https://github.com/Matt777k"
@@ -18,7 +18,7 @@ function Footer() {
           <i className="fab fa-github"></i>
         </a>
         <a
-          className="btn-floating btn-lg btn-so"
+          className="btn-floating btn-sm btn-so btn-warning"
           type="button"
           role="button"
           href="https://stackoverflow.com/cv/matthewkerr"
@@ -28,7 +28,7 @@ function Footer() {
           <i className="fab fa-stack-overflow"></i>
         </a>
         <a
-          className="btn-floating btn-lg btn-so"
+          className="btn-floating btn-sm btn-so btn-primary"
           type="button"
           role="button"
           href="https://www.linkedin.com/in/matthew-kerr-rd-ld-8568ba134/"

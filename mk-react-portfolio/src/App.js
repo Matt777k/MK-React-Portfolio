@@ -15,9 +15,9 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path="/MK-React-Portfolio/about" component={AboutMe} />
-          <Route exact path="/MK-React-Portfolio/contact" component={ContactPage} />
-          <Route exact path="/MK-React-Portfolio/portfolio" component={PortfolioPage}/>
+          <Route exact path="/MK-React-Portfolio/aboutpage" component={AboutMe} />
+          <Route exact path="/MK-React-Portfolio/contactpage" component={ContactPage} />
+          <Route exact path="/MK-React-Portfolio/portfoliopage" component={PortfolioPage}/>
           <Route path="/" component={AboutMe}/>
         </Switch>
         <Footer />

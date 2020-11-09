@@ -24,12 +24,12 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pages/PortfolioPage">
+              <a className="nav-link" href="/MK-React-Portfolio/portfoliopage">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pages/ContactPage">
+              <a className="nav-link" href="/MK-React-Portfolio/contactpage">
                 Contact
               </a>
             </li>
